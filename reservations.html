@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservations</title>
+  <style>
+    body {
+      background-image: url("backgroundrs.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <link rel="reservation" href="reservations.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Reservations</h1>
+    <form>
+      <label for="check-in-date">Check-In Date:</label>
+      <input type="date" id="check-in-date" name="check-in-date">
+      
+      <label for="check-out-date">Check-Out Date:</label>
+      <input type="date" id="check-out-date" name="check-out-date">
+      
+      <label for="room-type">Room Type:</label>
+      <select id="room-type" name="room-type">
+        <option value="single">Single Room</option>
+        <option value="double">Double Room</option>
+        <option value="deluxe">Deluxe Room</option>
+      </select>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  
+  <footer>
+    <p>&copy; Sligofront. All rights reserved.</p>
+  </footer>
+</body>
+</html>
